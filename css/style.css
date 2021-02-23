@@ -2,6 +2,9 @@
 
 body {
     background-color: #19a1ad;
+    background-image: url(../img/bg-pattern-top.svg), url(../img/bg-pattern-bottom.svg);
+    background-position: left -30% bottom -30%, right -50% top -50%;
+    background-repeat: no-repeat, no-repeat;
     font-family: "Kumbh Sans", sans-serif;
     display: flex;
     align-items: center;
@@ -44,7 +47,7 @@ span {
 .information h1 {
     padding: 0;
     margin: 0;
-    font-size: 16px;
+    font-size: 18px;
     margin-top: 10px;
 }
 
@@ -53,4 +56,32 @@ span {
     font-weight: 300;
     margin: 0;
     padding-top: 5px;
+}
+
+.activity {
+    margin-top: 150px;
+    display: flex;
+    justify-content: space-around;
+    height: 85px;
+    border-top: 1px solid #747474;
+}
+
+.block {
+    text-align: center;
+}
+
+.value {
+    font-weight: 900;
+    font-size: 18px;
+    margin: 0;
+    margin-top: 25px;
+}
+
+.description {
+    font-weight: 300;
+    color: #747474;
+    font-size: 12px;
+    margin: 0;
+    padding-top: 10px;
+    letter-spacing: 2px;
 }
